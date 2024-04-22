@@ -42,3 +42,14 @@ elsif grade < 2.0 && grade >=1.5
 else
     puts "You failed the class"
 end
+
+# OR
+
+account_balance = 1000000
+age = 75
+
+if account_balance = 1000000 || age =75
+    puts "Congratulations, you will retire now"
+else 
+    puts "You will need to save more money or retirement"
+end
