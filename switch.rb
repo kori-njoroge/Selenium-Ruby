@@ -29,3 +29,17 @@ when 500..649
 else 
     puts "You are not pre-approved sorry"
 end
+
+# STRING INTERPOLATION
+puts "Welcome to the Ruby class"
+puts 54
+
+no_of_apples = 5
+student = "John"
+
+# John has 5 apples
+
+puts student + " has " + no_of_apples.to_s + " apples"
+puts student + ' has ' + no_of_apples.to_s + ' apples'
+
+puts "#{student} has #{no_of_apples} apples"
