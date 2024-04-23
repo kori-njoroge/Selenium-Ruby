@@ -16,23 +16,32 @@
 # end
 
 # find even numbers in 0..10
-for i in 0..10
-    if i%2 == 0 then
-        puts "#{i} is an even number"
-    else
-        puts "#{i} is an odd number"
-    end
-end
+# for i in 0..10
+#     if i%2 == 0 then
+#         puts "#{i} is an even number"
+#     else
+#         puts "#{i} is an odd number"
+#     end
+# end
 
-# for loop to iterate over an array
-city_array = ['New York','New Jersey','Chicago','Los Angeles','Arizona']
+# # for loop to iterate over an array
+# city_array = ['New York','New Jersey','Chicago','Los Angeles','Arizona']
 
-for city in city_array
-    puts "City: #{city}"
-end
+# for city in city_array
+#     puts "City: #{city}"
+# end
 
-for i in city_array
-    if i.capitalize == "Arizona"
-        puts "Welcome to my city City: #{city}"
-    end
+# for i in city_array
+#     if i.capitalize == "Arizona"
+#         puts "Welcome to my city City: #{city}"
+#     end
+# end
+
+# WHILE LOOP - executes untill a condtion is true
+x = 10
+number  = 4
+
+while x>= number
+    puts "The number is #{x}"
+    x-=1
 end
