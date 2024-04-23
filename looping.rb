@@ -37,11 +37,20 @@
 #     end
 # end
 
-# WHILE LOOP - executes untill a condtion is true
-x = 10
-number  = 4
+# # WHILE LOOP - executes untill a condtion is true
+# x = 10
+# number  = 4
 
-while x>= number
-    puts "The number is #{x}"
-    x-=1
+# while x>= number
+#     puts "The number is #{x}"
+#     x-=1
+# end
+
+# UNTIL LOOP - opposite of while loop
+x = 8
+max_number = 10
+
+until x >= max_number
+    puts "Number is #{x}"
+    x+=1
 end
