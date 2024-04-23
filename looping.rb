@@ -46,11 +46,17 @@
 #     x-=1
 # end
 
-# UNTIL LOOP - opposite of while loop
-x = 8
-max_number = 10
+# # UNTIL LOOP - opposite of while loop
+# x = 8
+# max_number = 10
 
-until x >= max_number
-    puts "Number is #{x}"
-    x+=1
-end
+# until x >= max_number
+#     puts "Number is #{x}"
+#     x+=1
+# end
+
+
+# ITERATION
+# times
+
+10.times{ puts "Hello World"}
