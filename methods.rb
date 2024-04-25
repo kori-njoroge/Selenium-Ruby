@@ -6,3 +6,15 @@ def add(num1, num2)
 end
 
 puts add(100,1)
+
+
+friends= ["John","Mike","Jake","Jade"]
+
+def greet(friend)
+    puts "Hello #{friend}, welcome to my house"
+end
+
+for friend in friends
+    greet(friend)
+end
+
