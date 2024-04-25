@@ -18,3 +18,21 @@ for friend in friends
     greet(friend)
 end
 
+
+# Methods without default values
+
+def prog_language(p1, p2)
+    puts "the programming language is #{p1}"
+    puts "the programming language is #{p2}"
+end
+
+prog_language("Ruby", "Js")
+
+# Methods with default values
+def prog_language2(p1 = "C++", p2)
+    puts "the programming language is #{p1}"
+    puts "the programming language is #{p2}"
+end
+
+prog_language2("ruby")
+prog_language2("ruby","Java")
