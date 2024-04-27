@@ -77,3 +77,8 @@ def user_dets
 end
 
 puts user_dets
+
+# 5. Constant Varibales - never change, alsways in uppercase
+PI = 3.14
+
+puts PI
