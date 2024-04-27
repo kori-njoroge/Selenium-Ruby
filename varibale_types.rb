@@ -64,7 +64,7 @@ puts "------------------------"
 puts "Customer Information #{customer4.display_info}"
 puts customer4.display_no_of_customers
 
-# 3. Gllobal variables - varibles accessible through out the program
+# 3. Global variables - varibles accessible through out the program
 
 $age = 23
 puts $age

@@ -1,0 +1,15 @@
+Important Resources/References
+
+https://seleniumhq.org
+
+https://cucumber.io
+
+https://rubygems.org/
+
+https://ruby-doc.org/
+
+https://redfinsolutions.com/blog/creating-bashprofile-your-mac
+
+https://groups.google.com/forum/#!forum/selenium-users
+
+https://groups.google.com/forum/#!forum/webdriver
