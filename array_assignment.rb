@@ -58,3 +58,31 @@ puts "The average of the array elements is: #{new_array.average(floating_array)}
 puts "Largest element of the array is: #{new_array.max(floating_array)}"
 puts "Smallest element of the array is #{new_array.min(floating_array)}"
 
+# Create a class called Customer that contains the constructor method as well as the instance methods. Create two objects from the customer class. The customer should contain customer id and name which are mandatory, and address that can change.
+
+class Customer
+    def initialize(customer_id, name, address = nil)
+        @customer_id = customer_id
+        @name = name
+        @address = address
+    end
+
+    def update_name(new_name)
+        @name = new_name
+    end
+
+    def display_info
+        puts "Customer ID: #{@customer_id}"
+        puts "Name: #{@name}"
+        puts "Address: #{@address}"
+    end
+end
+
+# Creating the customers
+customer1 = Customer.new(1, "Gideon Kori")
+customer2 = Customer.new(1, "jane Doe", "123 Elm St Miami")
+
+puts "**************************"
+puts "Customer Information #{customer1.display_info}"
+puts "------------------------"
+puts "Customer Information #{customer2.display_info}"
