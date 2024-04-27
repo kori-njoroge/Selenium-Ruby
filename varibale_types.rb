@@ -68,3 +68,12 @@ puts customer4.display_no_of_customers
 
 $age = 23
 puts $age
+
+
+# 4. Local varibles
+def user_dets
+    age = 27
+    puts "The age is #{age}"
+end
+
+puts user_dets
