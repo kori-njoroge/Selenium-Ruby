@@ -135,7 +135,7 @@ class Semi < Vehicle
     end
 
     def stopping
-        puts "Semi Vehicle (#{@make}, #{@model}, #{@year}) stopping"\
+        puts "Semi Vehicle (#{@make}, #{@model}, #{@year}) stopping"
     end
 end
 
