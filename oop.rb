@@ -100,3 +100,66 @@ b3 = BigBox.new(40,24,30)
 b3.display_box_name
 b3.print_area
 puts("----------------------------------")
+
+# 3. POLYMORPHISM - ability to use same methods in different ways for different objects or data types
+# SUPER CLASS
+class Vehicle
+    def initialize(make,model,year)
+        @make = make
+        @model = model
+        @year = year
+    end
+
+    def start
+        puts "Vehicle Starting"
+    end
+
+    def stop
+        puts "Vehicle Stopping"
+    end
+end
+
+class SUV < Vehicle
+    def start
+        puts "SUV Vehicle (#{@make}, #{@model}, #{@year}) starting"
+    end
+
+    def stopping
+        puts "SUV Vehicle (#{@make}, #{@model}, #{@year}) stopping"
+    end
+end
+
+class Semi < Vehicle
+    def start
+        puts "Semi Vehicle (#{@make}, #{@model}, #{@year}) Starting"
+    end
+
+    def stopping
+        puts "Semi Vehicle (#{@make}, #{@model}, #{@year}) stopping"\
+    end
+end
+
+class Motorbike < Vehicle
+    def start 
+        puts "Motorbike Vehicle (#{@make}, #{@model}, #{@year}) starting"
+    end
+
+    def stopping
+        puts "Motorbike Vehicle (#{@make}, #{@model}, #{@year}) stopping"
+    end
+end
+
+puts "---------------------------------------"
+toyota = SUV.new("Toyota","Auris","2018")
+toyota.start
+toyota.stopping
+
+puts "---------------------------------------"
+volvo = Semi.new("Volvo","VNL","2013")
+volvo.start
+volvo.stopping
+
+puts "---------------------------------------"
+harley =  Motorbike.new("Harley", "Samson",2015)
+harley.start
+harley.stopping
