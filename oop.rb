@@ -58,7 +58,7 @@ class Box
     end
 end
 
-# CHILD CLASS 1
+# CHILD CLASS 1 - inherits the super class attributes
 class SmallBox < Box
     def print_area
         @area = @width * @height
@@ -70,7 +70,7 @@ class SmallBox < Box
     end
 end
 
-# CHILD CLASS 2
+# CHILD CLASS 2 - inherits the super class but creates own constructor
 class BigBox < Box
     def initialize(v,w,h)
         @volume = v
