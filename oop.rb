@@ -8,8 +8,25 @@
 #  => Write Access
 #  => Read & Write Access.
 
-class Document
-    attr_accessor :name
+# class Document
+#     attr_accessor :name
+#     def initialize(doc_name)
+#         @name = doc_name
+#     end
+
+#     def set_name(new_name)
+#         @name = new_name
+#     end
+# end
+
+# doc1 = Document.new("ruby1.txt")
+# puts doc1.name
+
+# doc1.set_name("ruby2.txt")
+# puts doc1.name
+
+class Documents
+    attr_reader :name
     def initialize(doc_name)
         @name = doc_name
     end
@@ -19,8 +36,10 @@ class Document
     end
 end
 
-doc1 = Document.new("ruby1.txt")
-puts doc1.name
+doc2 = Documents.new("ruby1.txt")
+puts doc2.name
 
-doc1.set_name("ruby2.txt")
+doc2.name = "ruby2.txt" # did not update the name since it can only be read outside the class
+
+doc2.set_name("ruby2.txt")
 puts doc1.name
