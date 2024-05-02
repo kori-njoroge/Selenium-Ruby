@@ -1,7 +1,7 @@
 # Login Validation Testcase
 require 'selenium-webdriver'
 
-# launch the firefox browser
+# launch the safari
 driver = Selenium::WebDriver.for :safari
 
 # Maximize the window
