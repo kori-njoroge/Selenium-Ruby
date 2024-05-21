@@ -69,4 +69,17 @@ radio_button.click
     driver.save_screenshot("homepage.png")
 
 
+
+    DATA DRIVEN FRAMEWORK
+> Driven by testing data
+expectation: Your code should work for different sets of data without any change/modification to the code.
+
+Advantages: 
+    parameterization - running script with multiple sets of data.
+    Elimitates hard coded data
+    Eliminsted the frustration of changring data and the code all the time.
+    Ability to run multiple scenerios with fewer lines of code.
+    Faster execution response of Automated Scripts.
+    Cleaner Test Execution report
+
 =end
