@@ -25,6 +25,8 @@ password.clear
 # type the value of the password
 password.send_keys("user")
 
+driver.save_screenshot("screenshot.png")
+
 # locating the login button
 login_button = driver.find_element(:name, "login")
 login_button.click
