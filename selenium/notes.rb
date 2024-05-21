@@ -82,4 +82,11 @@ Advantages:
     Faster execution response of Automated Scripts.
     Cleaner Test Execution report
 
+1. using excel file
+2. Using YAML file
+        YAML - readable test format for data structures
+        Default Ruby data source
+        Can handle common data types and structures
+        Easier to read n learn
+        Easier to convert data into hash and array.
 =end
