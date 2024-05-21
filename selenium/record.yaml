@@ -1,0 +1,15 @@
+record1:
+ username: test6@gmail.com
+ password: user
+ trip_type: oneway
+ no_of_passengers: 2
+record2:
+ username: test6@gmail.com
+ password: user
+ trip_type: roundtrip
+ no_of_passengers: 3
+record3:
+ username: test6@gmail.com
+ password: user
+ trip_type: oneway
+ no_of_passengers: 4
