@@ -77,7 +77,7 @@ expectation: Your code should work for different sets of data without any change
 Advantages: 
     parameterization - running script with multiple sets of data.
     Elimitates hard coded data
-    Eliminsted the frustration of changring data and the code all the time.
+    Eliminates the frustration of changring data and the code all the time.
     Ability to run multiple scenerios with fewer lines of code.
     Faster execution response of Automated Scripts.
     Cleaner Test Execution report
@@ -89,4 +89,38 @@ Advantages:
         Can handle common data types and structures
         Easier to read n learn
         Easier to convert data into hash and array.
+=end
+
+=begin
+ACCEPTANCE TEST DRIVEN DEVELOPMENT - ATDD
+> Involves team members with diffrent perspectives(Customer, Development,testing) collaborating to write acceptance tests in advance of implememting the  corresponding functionality.
+
+
+CUCUMBER
+- Framework that enables the software teams to use the business readable language and collaborate to develop a software product.
+- cucumber lets software development teams describe how software should behave in plain text.
+
+syntax
+Feature: Addition
+    Scenerio: Addition of two numbers
+        Given: I have two numbers 20 and 21
+        when: I click on the Add button
+        Then: The output should be 41
+
+> works with a variety of alanguages: Ruby, Java, .NET etc
+> Uses Gherkin format to create a business domain specific language which can be read and understood by everyone including the non technical personnel like BA/PO
+
+GHERKIN - Business specific readable language that cucumber understands.
+> uses Given, When, Then and But 
+keywords:  Feature, Scenerio, Given, When, Then And & But
+
+Given - Pre-condition
+And - Pre-Condition
+When - Action
+Then - consequence
+But - Negative result
+
+
+SOURCE CODE - Programming code that defines all the functions/actions of the feature.
+
 =end
